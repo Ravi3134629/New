@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+/* Contact Us Body and Structure */
+.contactUs {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.heading-container {
+  margin-bottom: 35px;
+}
+.heading-container h1 {
+  font-family: "IM FELL Double Pica", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  color: #6e3e41;
+  margin-bottom: 10px;
+}
+.heading-container p {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #292929;
+}
+.contactUs-body {
+  border: 1px solid #89c3cf;
+  border-radius: 2px;
+  height: 828px;
+  width: 1053.77px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.contactUs-body-container {
+  height: 739px;
+  width: 972px;
+  border-radius: 2px;
+  background-color: #e8eeef;
+  padding: 40px;
+}
+.contactUs button {
+  height: 34.8px;
+  width: 104.5px;
+  font-size: 18px;
+  font-weight: 400;
+  background: #efbec1;
+  border-radius: 4.97701px;
+  border: none;
+  line-height: 22px;
+  cursor: pointer;
+  color: #6e3e41;
+  font-family: "Actor", "serif";
+  margin-left: 42%;
+}
+/* Contact Us Input and Labels */
+.contactUs-body-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.contactUs-body-container:first-child {
+  padding-top: 80px;
+}
+.contactUs-labels {
+  height: 22px;
+  width: 248px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #292929;
+  display: block;
+  margin-bottom: 10px;
+}
+.contactUs-inputs {
+  cursor: pointer;
+  height: 36px;
+  width: 828.83px;
+  border: none;
+  border-bottom: 1px solid #04a9c7;
+  background-color: #f3f3f3;
+  padding: 10px 0 10px 28px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #848484;
+  margin-bottom: 50px;
+}
+.contactUs-inputs:focus {
+  outline-color: #04a9c7;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 426px) {
+  /* Contact Us Body and Structure */
+  .heading-container h1 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .heading-container p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .contactUs-body {
+    height: 424px;
+    width: 336px;
+  }
+  .contactUs-body-container {
+    height: 398px;
+    width: 315px;
+    padding: 20px;
+  }
+  .contactUs button {
+    height: 26px;
+    width: 80px;
+    font-size: 10px;
+    line-height: 12px;
+    background-color: #ea6872;
+    color: white;
+  }
+  /* Contact Us Input and Labels */
+  .contactUs-body-container {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+  .contactUs-body-container:first-child {
+    padding-top: 20px;
+  }
+  .contactUs-labels {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  .contactUs-inputs {
+    height: 30px;
+    width: 282px;
+    padding: 5px 0 5px 20px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  /* Contact Us Body and Structure */
+  .heading-container h1 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .heading-container p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .contactUs-body {
+    height: 424px;
+    width: 336px;
+  }
+  .contactUs-body-container {
+    height: 398px;
+    width: 315px;
+    padding: 20px;
+  }
+  .contactUs button {
+    height: 26px;
+    width: 80px;
+    font-size: 10px;
+    line-height: 12px;
+    background-color: #ea6872;
+    color: white;
+  }
+  /* Contact Us Input and Labels */
+  .contactUs-body-container {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+  .contactUs-body-container:first-child {
+    padding-top: 20px;
+  }
+  .contactUs-labels {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  .contactUs-inputs {
+    height: 30px;
+    width: 282px;
+    padding: 5px 0 5px 20px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 25px;
+  }
+}

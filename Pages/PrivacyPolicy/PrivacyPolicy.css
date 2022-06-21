@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+.privacy-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  color: #6e3e41;
+}
+.privacy-heading-para {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Actor", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.privacy-policy-body {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.privacy-policy-body h3 {
+  font-family: "Actor", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #6e3e41;
+  margin-bottom: 20px;
+}
+.privacy-policy-body p {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 426px) {
+  .privacy-heading {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .privacy-policy-body {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .privacy-policy-body h3 {
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .privacy-policy-body p {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+  .privacy-policy-body ul {
+    text-align: start;
+    margin: 10px 10px;
+  }
+  .privacy-heading-para {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

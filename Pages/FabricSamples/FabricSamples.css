@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+.fabric-heading {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  color: #6e3e41;
+}
+.fabric-para {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #292929;
+}
+.fabric-body {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.fabric-body h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #6e3e41;
+}
+.fabric-body p {
+  font-family: "Actor", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  color: #292929;
+}
+.fabric-body ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.fabric-body li {
+  margin-top: 2px;
+}
+@media screen and (max-width: 426px) {
+  .fabric-heading {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .fabric-para {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .fabric-body {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .fabric-body h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .fabric-body p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .fabric-body ul {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .fabric-body li {
+    margin-top: 2px;
+  }
+  .fabric-list li {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,155 @@
+.your-cart {
+  width: 90%;
+  height: auto;
+}
+.cart {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3%;
+  margin-bottom: 25px;
+  border: 1px solid #ea6872;
+}
+.cart-img img {
+  height: 200px;
+  width: 180px;
+}
+
+.cart-details h5 {
+  margin-bottom: 25px;
+  font-family: "Actor", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #292929;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #292929;
+  align-items: center;
+  background-color: white;
+  width: 170px;
+  height: 35px;
+  border-radius: 5px;
+}
+.counter button {
+  height: 100%;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 20%;
+  background-color: white;
+  border-radius: 5px;
+}
+.counter button:hover {
+  background-color: #ffbcbf;
+}
+.counter .btn-1 {
+  border-right: 0.5px solid #292929;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.counter .btn-2 {
+  border-left: 0.5px solid #292929;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.cart-addon {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3%;
+  margin-bottom: 25px;
+  border: 1px solid #ea6872;
+}
+
+.cart-coupons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aqua; */
+  height: auto;
+}
+
+.have-a-coupon-1 {
+  background-color: white;
+  width: 40%;
+  height: 50px;
+  margin: 2% 0;
+  border: 0.5px solid #ea6872;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.have-a-coupon-1 input {
+  font-family: "Actor", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #292929;
+  border: none;
+  outline: none;
+  width: 70%;
+  padding: 10px;
+}
+
+.coupon-btn {
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 10px;
+  width: 20%;
+  color: #04a9c7;
+  border: none;
+}
+.coupon-btn:focus {
+  outline: none;
+}
+.have-a-coupon-2 {
+  background-color: white;
+  width: 40%;
+  height: 50px;
+  margin: 2%;
+  padding: 0 2%;
+  border: 0.5px solid #ea6872;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.have-a-coupon-2 input[type="checkbox"] {
+  height: 25px;
+  width: 25px;
+  margin-right: 25px;
+}
+.have-a-coupon-2 label {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 12px 10px;
+  width: 80%;
+  color: #000000;
+  border: none;
+}

@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+.navbar {
+  width: 100%;
+  font-family: "Actor", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.btn {
+  background-color: #ffb2b8;
+  font-family: "Actor", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6e3e41;
+  width: 150px;
+  height: 50px;
+}
+.nav-link {
+  color: black;
+}
+
+@media screen and (min-width: 427px) {
+  .navbar-nav {
+    margin-left: 10%;
+    margin-right: 15%;
+  }
+  .navbar-brand {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .navbar-collapse {
+    background-color: #ea6872;
+  }
+  .nav-item .nav-link {
+    color: white;
+  }
+  .navbar-brand {
+    margin-right: 40%;
+  }
+  .btn {
+    font-size: 14px;
+    line-height: 17px;
+    width: 100px;
+    height: 30px;
+  }
+  .text-dark {
+    color: white !important;
+  }
+  .navbar-nav .dropdown-menu {
+    background-color: #ff98a1;
+  }
+  .navbar {
+    height: auto;
+    background-color: #ea6872;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .dropdown-item {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .navbar-collapse {
+    background-color: #ea6872;
+  }
+  .nav-item .nav-link {
+    color: white;
+  }
+  .navbar-brand {
+    margin-right: 36%;
+  }
+  .btn {
+    font-size: 14px;
+    line-height: 17px;
+    width: 100px;
+    height: 30px;
+  }
+  .text-dark {
+    color: white !important;
+  }
+  .navbar-nav .dropdown-menu {
+    background-color: #ff98a1;
+  }
+  .navbar {
+    height: auto;
+    background-color: #ea6872;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .dropdown-item {
+    font-size: 14px;
+  }
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5%;
+  height: 380px;
+  color: var(--bs-modal-color);
+  pointer-events: auto;
+  background-color: var(--bs-modal-bg);
+  background-clip: padding-box;
+  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+  border-radius: var(--bs-modal-border-radius);
+  outline: 0;
+}
+
+.btn_reg_color:hover {
+  background: #ffb2b8;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* identical to box height */
+
+  color: #6e3e41;
+}
+.btn_reg_color:link {
+  background: #ffb2b8;
+}
+
+/* .btn_reg_color2 {
+  padding-top: 18px;
+  font-size: 20px;
+  color: #ffffff;
+  height: 44px !important;
+} */
+
+.btn_setup {
+  width: 160px;
+  height: 45px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #ea6872 !important;
+}
+
+.btn_setup:hover {
+  width: 160px;
+  height: 45px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #ea6872 !important;
+}
+
+.modal-body > h4 {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "IM FELL Double Pica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #6e3e41;
+}
+
+.modal-body > input {
+  width: 60%;
+  height: 40px;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+.modal-body > button {
+  width: 160px;
+  height: 45px;
+  margin-left: 19rem;
+  margin-top: 1rem;
+  background: #ea6872;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+.modal-body > button:hover {
+  background-color: #ea6872 !important;
+}
+
+.inp {
+  display: flex;
+  width: 60%;
+  height: 45px;
+  margin-top: 2rem;
+  margin: 0px auto;
+  background: #f3f3f3;
+  border-bottom: 0.5px solid #04a9c7;
+}
+.second > input {
+  width: 18rem;
+  height: 42px;
+  border: none;
+  margin-top: 0.5%;
+  background-color: #f3f3f3;
+  outline: none;
+  margin-left: 10px;
+}
+
+.country_num {
+  /* width: 10%; */
+  border: none;
+  margin-top: 4.5%;
+  background-color: #f3f3f3;
+  border: none;
+}
+
+.form-select-sm {
+  padding-top: 9px;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+  background: #f3f3f3 !important;
+  border: none !important;
+}
+
+.tick_content {
+  margin-left: 0.1rem;
+}
+
+.tick_content > .span1 {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 10rem;
+  color: #9c9999;
+}
+
+.tick_content > .span2 {
+  margin-left: 10rem;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #ea6872;
+}

@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+.returns-policy-heading {
+  margin-top: 50px;
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 80px;
+  text-align: center;
+  color: #6e3e41;
+  margin-bottom: 50px;
+}
+.returns-policy-body {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 50px;
+}
+.returns-policy-body h3 {
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #6e3e41;
+  margin-bottom: 30px;
+}
+.returns-policy-body hr {
+  margin: 25px 10px;
+  height: 0.94px;
+  border: none;
+  background: #c4c4c4;
+}
+.returns-policy-body p {
+  margin-bottom: 15px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #525252;
+}
+/* Get in Touch Styles */
+.get-in-touch-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid #89c3cf;
+  border-radius: 2px;
+  height: auto;
+  width: auto;
+  margin-bottom: 100px;
+}
+.get-in-touch-container .get-in-touch-body {
+  height: auto;
+  width: auto;
+  padding: 5%;
+  border-radius: 2px;
+  background-color: #e8eeef;
+  margin: 30px;
+}
+.get-in-touch-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* Map Styles */
+.map {
+  height: 380px;
+  width: 500px;
+  background: url("../../../public/images/returns-policy/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 50px;
+}
+.details {
+  height: 180px;
+  width: 310px;
+  background-color: #292929;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  color: white;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 17px;
+}
+.details a {
+  color: #04a9c7;
+  text-decoration: none;
+}
+.details .logo {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.details .arrow {
+  position: relative;
+  top: -30px;
+  left: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.details p {
+  position: relative;
+  top: -20px;
+  left: 15px;
+  width: 60%;
+  margin-bottom: -10px;
+}
+.details .ratings {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.checked {
+  color: orange;
+}
+/* Form Styles */
+.get-in-touch-body form {
+  margin-left: 20px;
+  margin-right: -100px;
+}
+.form .contactUs-labels {
+  height: 22px;
+  width: auto;
+  font-family: "Actor", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #292929;
+  display: block;
+  margin-bottom: 10px;
+}
+.form .contactUs-inputs {
+  cursor: pointer;
+  height: 36px;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid #04a9c7;
+  background-color: #f3f3f3;
+  padding: 10px 0 10px 28px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #848484;
+  margin-bottom: 20px;
+}
+.form .contactUs-input-textarea {
+  height: 150px;
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 400px;
+  min-height: 100px;
+  padding: 5%;
+}
+.form button {
+  position: relative;
+  left: 25%;
+  height: 46.7713623046875px;
+  width: 150px;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 400;
+  background: #efbec1;
+  border-radius: 4.97701px;
+  border: none;
+  line-height: 22px;
+  cursor: pointer;
+  color: #6e3e41;
+  font-family: "Actor", "serif";
+}
+/* Icons */
+.get-in-touch-icons {
+  position: relative;
+  top: -180px;
+  left: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.get-in-touch-icons a {
+  margin-right: 20px;
+}
+.get-in-touch-icons a img {
+  height: 24px;
+  width: 26px;
+}
+
+@media screen and (max-width: 426px) {
+  .returns-policy-heading {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+  .returns-policy-body {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 50px;
+  }
+  .returns-policy-body h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .returns-policy-body p {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+  }
+  .get-in-touch-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    width: auto;
+    margin-bottom: 50px;
+  }
+  .get-in-touch-container .get-in-touch-body {
+    height: auto;
+    width: auto;
+    margin: 5%;
+  }
+  .get-in-touch-body {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  /* Form & Map */
+  .get-in-touch-body form {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .form .contactUs-labels {
+    height: auto;
+    width: auto;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .form .contactUs-inputs {
+    height: auto;
+    width: 100%;
+    padding: 10px 0 10px 15px;
+  }
+  .form .contactUs-input-textarea {
+    height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 400px;
+    min-height: 100px;
+    width: auto;
+    padding: 5%;
+  }
+  /* Icons */
+  .get-in-touch-icons {
+    top: -70px;
+    left: 25%;
+  }
+  /* Map */
+  .map {
+    height: 250px;
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .details {
+    height: 50%;
+    width: 80%;
+    top: 10px;
+    left: 10px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .details .arrow {
+    top: -30px;
+    left: 90px;
+  }
+  .details p {
+    position: relative;
+    top: -20px;
+    left: 15px;
+    width: 50%;
+    margin-bottom: -15px;
+  }
+  .details .ratings {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+}

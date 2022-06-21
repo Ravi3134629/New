@@ -1,0 +1,263 @@
+.line {
+  width: 72%;
+  height: 1px;
+  background-color: #000000;
+  margin: 0 auto;
+}
+
+/* fitler section */
+
+.order_det {
+  background: #e8eeef;
+  width: 100%;
+  height: 100vh;
+}
+
+.card_main {
+  width: 72%;
+  height: 24rem;
+  border: 1px solid #ea6872;
+  border-radius: 2px;
+  margin: 0 auto;
+  margin-top: 4rem;
+
+  box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.1);
+}
+.head {
+  margin-left: 13.5rem;
+  margin-top: 0.4rem;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.reject > a > p {
+  margin-top: 4rem;
+}
+
+.head > .order_det {
+  color: #ea6872;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.f1 {
+  width: 20%;
+  height: 20rem;
+  /* background-color: rebeccapurple; */
+  margin-left: 15px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.f1 > img {
+  width: 70%;
+}
+
+.f2 {
+  width: 25%;
+  height: 20rem;
+  margin-left: 1rem;
+  margin-left: 15px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.f3 {
+  width: 30%;
+  height: 20rem;
+  margin-left: 1rem;
+  margin-left: 15px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.f4 {
+  width: 25%;
+  height: 20rem;
+  margin-left: 5rem;
+}
+
+.cont_f {
+  display: flex;
+  padding: 2rem;
+}
+
+.im > img {
+  width: 8rem;
+
+  margin-left: 5rem;
+}
+
+.f2 > p {
+  margin-left: 1rem;
+}
+
+.comm {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.f3 > p {
+  margin-left: 5rem;
+}
+
+.f4 > p {
+  margin-left: 38px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.hello_s {
+  margin-left: 13rem;
+  padding: 1rem;
+}
+.picons > i {
+  font-size: 20px;
+  color: #ff938c;
+  box-shadow: 0px 0px 10px rgba(74, 27, 27, 0.1);
+}
+
+.picons > i:nth-child(2),
+.picons > i:nth-child(3) {
+  margin-left: 10px;
+  /* font-size: 20px; */
+}
+
+.stat > span {
+  /* identical to box height */
+
+  color: #04a9c7;
+}
+
+.stat2 {
+  color: #04a9c7;
+}
+
+.form_size {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form_size > option {
+  border: 1px solid black;
+  /* background-color: #f3f3f3; */
+}
+
+.opt {
+  border: 1px solid black;
+  /* background-color: #f3f3f3; */
+}
+
+#textReason {
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+  background-color: #f3f3f3;
+  outline: none;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #04a9c7;
+}
+
+.bt > button {
+  margin-top: 2rem;
+  width: 120px;
+  height: 45px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  margin-left: 10rem;
+  background-color: #ea6872;
+}
+
+.bt > button:hover {
+  background-color: #ea6872 !important;
+}
+
+.btn_trig {
+  outline: none;
+  border: none;
+  margin-left: 20px;
+  height: 30px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  font-size: 22px;
+  /* text-align: center; */
+  text-decoration: none;
+  /* vertical-align: middle; */
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}
+
+/* progress */
+.one {
+  width: 10px;
+  height: 10px;
+  margin-top: 8px;
+  border-radius: 50%;
+  background-color: #04a9c7;
+}
+
+.c1 {
+  display: flex;
+}
+
+.c1 > p {
+  margin-left: 10px;
+}
+.cont_prog {
+  width: 400px;
+  position: absolute;
+}
+
+.horLine {
+  width: 160px;
+  height: 2px;
+  position: absolute;
+  right: 20px;
+  left: -75.2px;
+  bottom: 105.5px;
+  background-color: #04a9c7;
+  transform: rotate(90deg);
+}
+
+.spn {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.order_trac {
+  text-align: center;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+/* Story Vision Section Heading*/
+.story-vision {
+  height: auto;
+  width: 100%;
+  margin-top: 75px;
+}
+.heading {
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  color: #6e3e41;
+}
+.desc {
+  margin: 25px 25px 50px 25px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-container {
+  background: url("../../../public/images/landing-page/story-vision.png");
+  height: 460px;
+  width: 680.04px;
+  border-radius: 2px;
+}
+.desc p {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #292929;
+  width: 30%;
+  margin-bottom: 25px;
+  text-align: start;
+}
+.desc button {
+  display: block;
+  margin-top: 25px;
+  height: 39px;
+  width: 117px;
+  font-size: 18px;
+  font-weight: 400;
+  background: #efbec1;
+  border-radius: 4.97701px;
+  border: none;
+  line-height: 22px;
+  color: #6e3e41;
+  cursor: pointer;
+  font-family: "Actor", "serif";
+}
+/* We are specialised Section */
+.specialised-cards {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.specialised p {
+  margin-top: 10px;
+  font-family: "Actor", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #292929;
+  margin-bottom: 100px;
+}
+/* Why Silaan Section */
+.why-silaan {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.why-silaan p {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 10px;
+  color: #292929;
+}
+
+.why-silaan-bg {
+  background: url("../../../public/images/landing-page/Group72.png");
+  height: 712px;
+  width: 100%;
+  position: relative;
+  top: -50px;
+}
+.why-silaan-cards {
+  position: relative;
+  /* top: -50%; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+}
+/* Unique Section */
+.unique {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.unique-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.unique-cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.unique-cards h2 {
+  font-family: "Actor", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  color: #04a9c7;
+}
+.unique-cards p {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #292929;
+}
+
+/* Trusted */
+.trusted {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.trusted-cards {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 426px) {
+  /* Story Vision Section */
+  .homepage {
+    width: 100vw;
+  }
+  .story-vision {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    /* padding-left: 2%;
+    padding-right: 2%; */
+  }
+  .heading {
+    /* margin-top: -30px; */
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .desc {
+    margin: 10px 25px 0px 25px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-container {
+    background: url("../../../public/images/landing-page/story-vision-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .desc p {
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .desc button {
+    width: 80px;
+    height: 26px;
+    font-size: 12px;
+    margin-left: 135px;
+    margin-top: 15px;
+  }
+  .homepage-hr {
+    height: 0.5px;
+    background-color: #cecece;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  /* We are Specialised Section */
+  .specialised-cards {
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .specialised p {
+    padding: 0 10px 0 10px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 0px;
+  }
+  /* Why Silaan Section */
+  .why-silaan {
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .why-silaan p {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+
+  .why-silaan-bg {
+    background: url("../../../public/images/landing-page/Group72.png");
+    height: 712px;
+    width: 100%;
+    position: relative;
+    top: -50px;
+  }
+  .why-silaan-cards {
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  /* Unique Section */
+  .unique {
+    margin-top: -100px;
+    margin-bottom: 0px;
+  }
+  .unique-cards-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .unique-cards {
+    margin-bottom: 25px;
+  }
+  .unique-cards h2 {
+    font-size: 26px;
+    line-height: 43px;
+  }
+  .unique-cards p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  /* Trusted Section */
+  .trusted {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .trusted-cards {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 376px) {
+  /* Story Vision Section */
+  .homepage {
+    width: 100vw;
+  }
+  .story-vision {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    /* padding-left: 2%;
+    padding-right: 2%; */
+  }
+  .heading {
+    /* margin-top: -30px; */
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .desc {
+    margin: 10px 25px 0px 25px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-container {
+    background: url("../../../public/images/landing-page/story-vision-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 157px;
+    width: 236px;
+    margin-bottom: 20px;
+  }
+  .desc p {
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .desc button {
+    width: 80px;
+    height: 26px;
+    font-size: 12px;
+    margin-left: 110px;
+  }
+  .homepage-hr {
+    height: 0.5px;
+    background-color: #cecece;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  /* We are Specialised Section */
+  .specialised-cards {
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .specialised p {
+    padding: 0 10px 0 10px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 0px;
+  }
+  /* Why Silaan Section */
+  .why-silaan {
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .why-silaan p {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+
+  .why-silaan-bg {
+    background: url("../../../public/images/landing-page/Group72.png");
+    height: 712px;
+    width: 100%;
+    position: relative;
+    top: -50px;
+  }
+  .why-silaan-cards {
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  /* Unique Section */
+  .unique {
+    margin-top: -100px;
+    margin-bottom: 0px;
+  }
+  .unique-cards-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .unique-cards {
+    margin-bottom: 25px;
+  }
+  .unique-cards h2 {
+    font-size: 26px;
+    line-height: 43px;
+  }
+  .unique-cards p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  /* Trusted Section */
+  .trusted {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .trusted-cards {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

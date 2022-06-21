@@ -1,0 +1,63 @@
+.dashboard {
+  background: #e8eeef;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+    margin-left: 198px;
+  }
+}
+.newcard {
+  width: 170px;
+  text-align: center;
+  background: #e8eeef !important;
+  border: none !important;
+  margin-top: 2rem;
+  margin-left: 10px;
+}
+
+.newcard > img {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.hello {
+  margin-top: 5rem;
+}
+
+.hello > h3 {
+  margin-left: 10.5rem;
+  margin-bottom: 15px;
+}
+
+.line {
+  width: 78%;
+  background-color: #000000;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.myorder {
+  margin-left: 10.5rem;
+  margin-top: 1rem;
+  font-family: "IM FELL Double Pica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #6e3e41;
+}

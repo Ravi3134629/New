@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+.faq-heading {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  color: #6e3e41;
+}
+.faq-para {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.faq-body {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.faq-body h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #6e3e41;
+}
+.faq-body p {
+  font-family: "Actor", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  color: #292929;
+}
+.faq-body ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.faq-body li {
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 426px) {
+  .faq-heading {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .faq-para {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+  .faq-body h3 {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .faq-body p {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .faq-body ul {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: start;
+  }
+  .faq-body li {
+    margin-top: 2px;
+  }
+}

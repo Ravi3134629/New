@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.footer {
+  height: auto;
+  background-color: #ea6872;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 50px;
+}
+.col1 {
+  height: auto;
+  width: 290px;
+  color: white;
+  margin-right: 100px;
+}
+.col1 a img {
+  margin-bottom: 20px;
+}
+.col1 p {
+  margin-bottom: 25px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  color: white;
+}
+.links-list {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.links-list-item a i {
+  color: white;
+}
+.footer-links-list {
+  list-style-type: none;
+  color: white;
+}
+.footer-links-list li {
+  margin-bottom: 10px;
+}
+.footer-links-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 100;
+}
+.footer p {
+  color: white;
+  text-align: start;
+}
+.col2,
+.col3,
+.col4 {
+  font-family: "Actor";
+  letter-spacing: 0.05em;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-right: 80px;
+  font-weight: 100;
+}
+
+.line {
+  margin-top: 8px;
+  margin-bottom: 15px;
+  height: 0.5px;
+  width: 100%;
+  background-color: #eff6ee;
+}
+
+.col4 {
+  width: 320px;
+  margin-right: 20px;
+}
+.col4 .line {
+  margin-bottom: 10px;
+}
+.col4 .para {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.col4 .callUs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.col4 .callUs-container p {
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: justify;
+}
+.col4 .map-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.section2 .line {
+  margin-bottom: 20px;
+}
+.section2 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 20px;
+}
+.section2 p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.col-container {
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 426px) {
+  .footer {
+    width: 100vw;
+  }
+  .section1 {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  .col-container {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .col1 {
+    width: 90%;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
+  .col1 p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  .links-list li {
+    margin: 10px 10px 20px 10px;
+  }
+  .col2,
+  .col3,
+  .col4 {
+    margin-right: 0px;
+    font-size: 14px;
+    line-height: 17px;
+    width: 50%;
+  }
+  .col3 {
+    margin-right: 0px;
+  }
+  .col4 {
+    margin-right: 0px;
+  }
+  .line {
+    width: 80%;
+  }
+  .col4-1 {
+    position: relative;
+    top: 20px;
+    left: -95px;
+    width: 80%;
+  }
+  .col4-1 .para {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .col4-2 {
+    width: 80%;
+    position: relative;
+    top: -118px;
+    left: 96px;
+  }
+  .col4-2 .callUs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .col4-2 .callUs-container p {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: start;
+  }
+  .map-container {
+    position: relative;
+    top: -100px;
+    margin-bottom: 0px;
+  }
+  .footer-links-list li a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .footer {
+    width: 100vw;
+  }
+  .section1 {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  .col-container {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .col1 {
+    width: 90%;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  .col1 p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  .links-list li {
+    margin: 10px 10px 20px 10px;
+  }
+  .col2,
+  .col3,
+  .col4 {
+    margin-right: 0px;
+    font-size: 14px;
+    line-height: 17px;
+    width: 50%;
+  }
+  .col3 {
+    margin-right: 0px;
+  }
+  .col4 {
+    margin-right: 0px;
+  }
+  .line {
+    width: 80%;
+  }
+  .col4-1 {
+    position: relative;
+    top: 20px;
+    left: -80px;
+    width: 80%;
+  }
+  .col4-1 .para {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .col4-2 {
+    width: 80%;
+    position: relative;
+    top: -135px;
+    left: 85px;
+  }
+  .col4-2 .callUs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .col4-2 .callUs-container p {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: start;
+  }
+  .map-container {
+    position: relative;
+    top: -100px;
+    margin-bottom: 0px;
+  }
+  .footer-links-list li a {
+    font-size: 14px;
+  }
+}

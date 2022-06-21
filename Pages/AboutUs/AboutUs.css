@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+.about-us-body {
+  position: relative;
+}
+.about-us-body h1 {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #6e3e41;
+  margin-bottom: 50px;
+}
+.about-us-body p {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #525252;
+}
+.about-us-body {
+  margin-bottom: 100px;
+}
+.bg-img {
+  background: url("../../../public//images/about-us/bg-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 426px) {
+  .bg-img {
+    height: 300px;
+    width: 300px;
+  }
+  .about-us-body h1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  .about-us-body p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

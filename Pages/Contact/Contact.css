@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+.contact-us-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 200px;
+}
+.contact-heading {
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 70px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: #6e3e41;
+}
+.contact-hr {
+  height: 1px;
+  border: none;
+  background-color: #000000;
+  margin-bottom: 50px;
+}
+.question span {
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  margin-right: 100px;
+  color: #292929;
+}
+.question {
+  /* width: ; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.question p {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 35%;
+  color: #292929;
+}
+/* Contact Form */
+.contact-form-container {
+  height: 830px;
+  width: 100%;
+  border-radius: 2px;
+  border: 0.5px solid #04a9c7;
+  background-color: #e5e5e5;
+  padding: 26px 0 26px 28px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-form-left {
+  height: 100%;
+  width: 600px;
+  background-color: white;
+  margin-right: 20px;
+}
+.form-container {
+  padding: 50px 0 25px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.form-container label {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #3d3d3d;
+  margin-bottom: 20px;
+}
+.form-container input {
+  height: 36px;
+  width: 474px;
+  border: 1px solid #999999;
+  border-radius: 2px;
+  padding: 9px 0 10px 27px;
+  margin-bottom: 50px;
+}
+.form-container select {
+  height: 36px;
+  width: 474px;
+  border: 1px solid #999999;
+  border-radius: 2px;
+  padding: 9px 0 10px 27px;
+  margin-bottom: 50px;
+}
+.btn-containers button {
+  height: 50px;
+  width: 152px;
+  font-size: 18px;
+  font-weight: 400;
+  background: #efbec1;
+  border-radius: 2px;
+  border: none;
+  line-height: 22px;
+  cursor: pointer;
+  color: #6e3e41;
+  font-family: "Actor", "serif";
+  margin-right: 100px;
+  margin-left: 20px;
+  margin-top: -100px;
+}
+.contact-form-right {
+  height: 100%;
+  width: 450px;
+  background-color: white;
+  padding: 40px 0 0 40px;
+}
+.contact-form-right p {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #292929;
+}
+.contact-form-right h3 {
+  font-family: "IM FELL Double Pica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #6e3e41;
+  margin-bottom: 25px;
+}
+.contact-form-right h4 {
+  font-family: "Actor", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6e3e41;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.callus-para {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.callus-para p {
+  margin-right: 50px;
+}
+.contact-us-social-icons {
+  position: relative;
+  width: 0;
+  top: -200px;
+  left: 90%;
+}
+.contact-us-social-icons ul {
+  list-style-type: none;
+  color: white;
+}
+.contact-us-social-icons li {
+  margin-bottom: 20px;
+}
+.contact-us-social-icons li a i {
+  color: black;
+}
+.contact-us-map {
+  position: relative;
+  top: -200px;
+  right: 10px;
+  height: 390px;
+  width: 390px;
+  background: url("../../../public/images/SquareMap.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 426px) {
+  .contact-us-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 100px;
+  }
+  .contact-heading {
+    display: block;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .question span {
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .question {
+    flex-direction: column;
+  }
+  .question p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 85%;
+    text-align: center;
+  }
+  /* Contact Form */
+  .contact-form-container {
+    height: auto;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .contact-form-left {
+    height: auto;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .form-container {
+    padding: 5%;
+  }
+  .form-container label {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+  .form-container input {
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+  }
+  .form-container select {
+    height: auto;
+    width: 100%;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .btn-containers button {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 25px;
+  }
+  .contact-form-right {
+    height: auto;
+    width: 100%;
+    padding: 10% 0 0 5%;
+  }
+  .contact-form-right p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .contact-form-right h3 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+  .contact-form-right h4 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+  .callus-para p {
+    margin-right: 30px;
+  }
+  .contact-us-social-icons {
+    position: relative;
+    width: 0;
+    top: -180px;
+    left: 90%;
+  }
+  .contact-us-map {
+    margin-bottom: -100px;
+    top: -150px;
+    right: 10px;
+    height: 260px;
+    width: 100%;
+  }
+}

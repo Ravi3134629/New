@@ -1,0 +1,10 @@
+.blouse-step1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  /* margin-left: ; */
+}

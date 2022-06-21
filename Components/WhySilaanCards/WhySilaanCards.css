@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+.why-silaan-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 273px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.why-silaan-card img {
+  height: 100px;
+  width: auto;
+  margin-bottom: 25px;
+}
+.why-silaan-card h3 {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #292929;
+}
+.why-silaan-card p {
+  font-family: "Actor", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #525252;
+}
+
+@media screen and (max-width: 426px) {
+  .why-silaan-card {
+    height: auto;
+    width: 148px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .why-silaan-card img {
+    height: 38px;
+    width: 54px;
+    margin-bottom: 10px;
+  }
+  .why-silaan-card h3 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .why-silaan-card p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .why-silaan-card {
+    height: auto;
+    width: 148px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .why-silaan-card img {
+    height: 38px;
+    width: 54px;
+    margin-bottom: 10px;
+  }
+  .why-silaan-card h3 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .why-silaan-card p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
